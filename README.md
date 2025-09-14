@@ -31,26 +31,20 @@ It allows users to start, pause, reset the timer, and track multiple lap times w
 ---
 
 
-**📂 Project Structure**
-stopwatch/                  # Root folder of the project
-│
-├── node_modules/           # Installed dependencies (auto generated)
-├── public/                 # Public assets (favicon, etc.)
-├── SCT_WD_2/               # GitHub repo folder (internship task repo)
-├── src/                    # Main source code
-│   ├── assets/             # Images or static files
-│   ├── App.css             # Styling for the stopwatch
-│   ├── App.jsx             # Main React component (UI & logic)
-│   ├── index.css           # Global styles
-│   └── main.jsx            # Entry point for rendering the app
-│
-├── .gitignore              # Files ignored by Git
-├── eslint.config.js        # ESLint configuration
-├── index.html              # Main HTML file (Vite template)
-├── package.json            # Project dependencies & scripts
-├── package-lock.json       # Dependency lock file
-├── postcss.config.js       # PostCSS configuration
-├── README.md               # Documentation of the project
-├── tailwind.config.js      # TailwindCSS configuration
-└── vite.config.js          # Vite bundler configuration
+## 🎥 Demo Video
+[Click here to watch the demo](C:\Users\acer\Videos\Captures)
 
+
+
+📂 Project Structure
+stopwatch/                # Root folder of the project
+├── public/               # Public assets
+├── src/                  # Main source code
+│   ├── assets/           # Images or static files
+│   ├── App.css           # Styling
+│   ├── App.jsx           # Main React component
+│   ├── index.css         # Global styles
+│   └── main.jsx          # Entry point
+├── package.json          # Project dependencies & scripts
+├── tailwind.config.js    # TailwindCSS configuration
+└── vite.config.js        # Vite bundler configuration

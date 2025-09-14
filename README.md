@@ -32,8 +32,8 @@ It allows users to start, pause, reset the timer, and track multiple lap times w
 
 
 ## 🎥 Demo Video
-[Click here to watch the demo](C:\Users\acer\Videos\Captures)
 
+▶️ [Click here to watch the demo](https://drive.google.com/file/d/1jmM4XLI0V3LKSN9I0hMxEZ5zOOyDx28s/view?usp=drive_link) 🎬
 
 
 📂 Project Structure

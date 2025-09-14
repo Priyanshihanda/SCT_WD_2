@@ -1,0 +1,11 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

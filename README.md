@@ -1,12 +1,56 @@
-# React + Vite
+# ⏱️ Stopwatch Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and user-friendly stopwatch web app built with **React.js**.  
+It allows users to start, pause, reset the timer, and track multiple lap times with a clean and modern UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Start, Pause, Reset functionality
+- Lap time tracking with fastest & slowest lap highlight
+- Animated stopwatch needle
+- Neon & glassmorphism styled UI
+- Theme switcher (Dark/Light mode)
+- Smooth animations using **Framer Motion**
+- Particle effects for enhanced visuals
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Screenshots
+<img width="1848" height="855" alt="image" src="https://github.com/user-attachments/assets/85533cba-a001-44f4-a70a-4cf35ff853b9" />
+
+
+---
+
+## 🛠️ Tech Stack
+- **React.js**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Lucide Icons**
+
+---
+
+
+**📂 Project Structure**
+stopwatch/                  # Root folder of the project
+│
+├── node_modules/           # Installed dependencies (auto generated)
+├── public/                 # Public assets (favicon, etc.)
+├── SCT_WD_2/               # GitHub repo folder (internship task repo)
+├── src/                    # Main source code
+│   ├── assets/             # Images or static files
+│   ├── App.css             # Styling for the stopwatch
+│   ├── App.jsx             # Main React component (UI & logic)
+│   ├── index.css           # Global styles
+│   └── main.jsx            # Entry point for rendering the app
+│
+├── .gitignore              # Files ignored by Git
+├── eslint.config.js        # ESLint configuration
+├── index.html              # Main HTML file (Vite template)
+├── package.json            # Project dependencies & scripts
+├── package-lock.json       # Dependency lock file
+├── postcss.config.js       # PostCSS configuration
+├── README.md               # Documentation of the project
+├── tailwind.config.js      # TailwindCSS configuration
+└── vite.config.js          # Vite bundler configuration
+
